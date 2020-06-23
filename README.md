@@ -11,7 +11,8 @@ Very straightforward usage.
 
 **Basic Result**
 ```c#
-using Resulti.Results;
+using Resulti.Core.Results;
+using Resulti.Core.Util;
 ...
 
 // Empty result 
@@ -32,7 +33,8 @@ new Result<int>(5)
 
 **Http Result**
 ```c#
-using Resulti.Results;
+using Resulti.Core.Results;
+using Resulti.Core.Util;
 ...
 
 // Http result with object initialisation
