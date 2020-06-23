@@ -10,6 +10,13 @@ EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Resulti.Core", "Resulti.Core\Resulti.Core.csproj", "{F4E2B9EF-CCD2-4CC3-8177-C6036C837D71}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ci", "ci", "{549E05B5-150B-4380-91AA-27ED1C121B60}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "readme", "readme", "{96B81E32-36D4-4AA8-9050-F3E68504E5B7}"
+ProjectSection(SolutionItems) = preProject
+	README.md = README.md
+EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

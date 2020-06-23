@@ -92,6 +92,12 @@ namespace Resulti.Core.Results
         {
             Data = result.Data;
         }
+        
+        /// <inheritdoc />
+        public HttpResult(T data)
+        {
+            Data = data;
+        }
 
         /// <summary>
         /// Databag used to contain result data
