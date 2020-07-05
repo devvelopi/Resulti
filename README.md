@@ -41,7 +41,7 @@ using Resulti.Core.Util;
 
 // Http result with object initialisation
 var data = new List<int> {1, 2, 3};
-new Result<List<int>>(data) 
+new HttpResult<List<int>>(data) 
 {
     Id = "ID-007",
     Status = ResultStatus.Success,
