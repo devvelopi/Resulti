@@ -3,7 +3,9 @@ A simple library containing useful common result definitions and helpers
 
 ## Installation
 
-*Coming Soon*
+```bash
+dotnet add package Resulti.Core
+```
 
 ## Usage
 

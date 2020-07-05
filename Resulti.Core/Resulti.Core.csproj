@@ -3,6 +3,14 @@
     <PropertyGroup>
         <TargetFramework>netcoreapp3.1</TargetFramework>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Description>A simple library containing useful common result definitions and helpers</Description>
+        <PackageProjectUrl>https://github.com/jaseaman/Resulti</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/jaseaman/Resulti</RepositoryUrl>
+        <PackageTags>result</PackageTags>
+        <PackageId>Resulti.Core</PackageId>
+        <SignAssembly>true</SignAssembly>
+        <Version>0.1.0</Version>
+        <Title>Resulti Core</Title>
     </PropertyGroup>
 
     <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
