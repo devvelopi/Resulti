@@ -1,4 +1,4 @@
-﻿namespace Resulti.Core
+﻿namespace Resulti.Core.Notifications
 {
     /// <summary>
     /// Used to contain short codes, display and developer messages
@@ -9,6 +9,11 @@
         /// A short unique code designating an error or result
         /// </summary>
         public string Code { get; set; }
+
+        /// <summary>
+        /// A type designation of the notification
+        /// </summary>
+        public string Type { get; set; }
 
         /// <summary>
         /// A user friendly message to display

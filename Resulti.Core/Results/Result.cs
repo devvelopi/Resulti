@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using Resulti.Core.Notifications;
 using Resulti.Core.Util;
 
 namespace Resulti.Core.Results
@@ -40,7 +41,7 @@ namespace Resulti.Core.Results
         /// <summary>
         /// Collection of messages relating to the outcome of the result
         /// </summary>
-        public IEnumerable<Notification> Notifications { get; set; } = new List<Notification>();
+        public List<Notification> Notifications { get; set; } = new List<Notification>();
     }
 
     /// <summary>
