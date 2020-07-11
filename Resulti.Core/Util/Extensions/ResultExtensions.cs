@@ -50,7 +50,7 @@ namespace Resulti.Core.Util.Extensions
         /// <returns>Self</returns>
         public static Result<T> Failure<T>(this Result<T> r)
         {
-            r.Status = ResultStatus.Success;
+            r.Status = ResultStatus.Failure;
             r.Data = default;
             return r;
         }
