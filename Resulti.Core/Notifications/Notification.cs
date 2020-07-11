@@ -24,10 +24,5 @@
         /// A developer friendly message for debugging
         /// </summary>
         public string DeveloperMessage { get; set; }
-
-        /// <summary>
-        /// Stack trace for detailed debugging
-        /// </summary>
-        public string Trace { get; set; }
     }
 }

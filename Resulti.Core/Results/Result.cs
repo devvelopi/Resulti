@@ -26,6 +26,7 @@ namespace Resulti.Core.Results
             Id = result.Id;
             Status = result.Status;
             Notifications = new List<Notification>(result.Notifications);
+            Trace = result.Trace;
         }
 
         /// <summary>
@@ -39,9 +40,19 @@ namespace Resulti.Core.Results
         public string Status { get; set; }
 
         /// <summary>
+        /// Quick access success designation for the result
+        /// </summary>
+        public virtual bool Success => Status == ResultStatus.Success || Status == ResultStatus.Warning;
+        
+        /// <summary>
         /// Collection of messages relating to the outcome of the result
         /// </summary>
         public List<Notification> Notifications { get; set; } = new List<Notification>();
+        
+        /// <summary>
+        /// Stack trace for detailed debugging
+        /// </summary>
+        public string Trace { get; set; }
     }
 
     /// <summary>

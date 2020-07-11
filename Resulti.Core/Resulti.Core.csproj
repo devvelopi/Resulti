@@ -9,7 +9,7 @@
         <PackageTags>result</PackageTags>
         <PackageId>Resulti.Core</PackageId>
         <SignAssembly>true</SignAssembly>
-        <Version>0.1.1</Version>
+        <Version>0.1.2</Version>
         <Title>Resulti Core</Title>
     </PropertyGroup>
 

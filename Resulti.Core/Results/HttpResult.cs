@@ -21,6 +21,12 @@ namespace Resulti.Core.Results
         {
             HttpCode = result.HttpCode;
             InformationUri = result.InformationUri;
+            Count = result.Count;
+            TotalCount = result.Count;
+            Page = result.Page;
+            PageSize = result.PageSize;
+            PreviousPage = result.PreviousPage;
+            NextPage = result.NextPage;
         }
 
         /// <summary>
